@@ -20,7 +20,7 @@ header {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  margin: 10px;
+  padding: 20px;
   font-size: 20px;
 }
 
@@ -33,6 +33,7 @@ header > img {
   display: flex;
   flex-direction: row;
   list-style: none;
+  padding: 0;
 }
 
 .nav-bar ul li {
@@ -118,7 +119,7 @@ header > img {
 
 .spotify-player img {
   width: 400px;
-  height: 600px;
+  height: 700px;
 }
 
 .spotify-player h3 {
