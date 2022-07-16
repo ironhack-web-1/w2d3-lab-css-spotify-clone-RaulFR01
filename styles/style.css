@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Albert+Sans:wght@100;300&display=swap");
+
 /*
 Colors:
 
@@ -6,3 +8,144 @@ Green: #00B172
 White: #FFF
 
 */
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #fff;
+  font-family: "Albert Sans", sans-serif;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 20px;
+  font-size: 20px;
+}
+
+header > img {
+  width: 250px;
+  height: 80px;
+}
+
+.nav-bar ul {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  padding: 0;
+}
+
+.nav-bar ul li {
+  padding: 20px;
+  font-weight: bold;
+}
+.nav-bar ul li a {
+  text-decoration: none;
+  color: #1a1a1a;
+}
+
+.performance-section {
+  background-image: url("/images/landing.jpg");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  height: 1000px;
+  width: 100%;
+}
+
+.text-performance {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100%;
+  color: white;
+  text-align: center;
+}
+
+.text-performance h1 {
+  font-size: 120px;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.text-performance p {
+  font-size: 30px;
+}
+
+.information {
+  margin: 40px;
+}
+.information h2 {
+  text-align: center;
+  font-size: 50px;
+}
+
+.information img {
+  width: 220px;
+  height: 200px;
+}
+
+.information-items {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  margin: 50px;
+}
+
+.information-items div h3 {
+  color: #00b172;
+  font-weight: bolder;
+}
+
+.information-items div {
+  padding-top: 50px;
+  text-align: center;
+  font-size: 20px;
+}
+
+.spotify-player {
+  margin: 0px 30px 0;
+  background-color: #00b172;
+}
+
+.spotify-player #spotify-icon {
+  position: absolute;
+  top: 220%;
+  left: 48%;
+  width: 100px;
+  height: 100px;
+}
+
+.spotify-player img {
+  width: 400px;
+  height: 700px;
+}
+
+.spotify-player h3 {
+  width: 500px;
+  border-bottom: 3px solid white;
+  color: white;
+  font-size: 40px;
+}
+
+.items-player {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 80px;
+  height: 800px;
+}
+
+.item {
+  color: white;
+  width: 300px;
+}
+
+.item h4 {
+  font-size: 40px;
+}
+.item p {
+  font-size: 20px;
+  text-align: left;
+}
